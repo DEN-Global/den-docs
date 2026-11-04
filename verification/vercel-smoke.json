@@ -1,0 +1,86 @@
+{
+  "origin": "https://den-global.vercel.app",
+  "at": "2026-11-04T15:05:57.004Z",
+  "checks": [
+    {
+      "name": "consumer HTML",
+      "ok": true
+    },
+    {
+      "name": "manager HTML",
+      "ok": true
+    },
+    {
+      "name": "rider HTML",
+      "ok": true
+    },
+    {
+      "name": "dispatch HTML",
+      "ok": true
+    },
+    {
+      "name": "transport HTML",
+      "ok": true
+    },
+    {
+      "name": "shipment HTML",
+      "ok": true
+    },
+    {
+      "name": "warehouse HTML",
+      "ok": true
+    },
+    {
+      "name": "admin HTML",
+      "ok": true
+    },
+    {
+      "name": "API health",
+      "ok": true
+    },
+    {
+      "name": "anonymous denied",
+      "ok": true
+    },
+    {
+      "name": "local credentials excluded",
+      "ok": true
+    },
+    {
+      "name": "86 screen gallery",
+      "ok": true
+    },
+    {
+      "name": "database registration",
+      "ok": true
+    },
+    {
+      "name": "password sign-in",
+      "ok": true
+    },
+    {
+      "name": "secure session cookie",
+      "ok": true
+    },
+    {
+      "name": "persisted authenticated user",
+      "ok": true
+    },
+    {
+      "name": "no public admin grant",
+      "ok": true
+    },
+    {
+      "name": "CSRF enforced",
+      "ok": true
+    },
+    {
+      "name": "logout",
+      "ok": true
+    },
+    {
+      "name": "session revoked",
+      "ok": true
+    }
+  ]
+}
