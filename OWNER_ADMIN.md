@@ -24,7 +24,7 @@ From the backend directory, run:
 npm run setup:owner -- --replace-test-owner
 ```
 
-Enter the owner email (or accept the default), then enter and confirm the password in the hidden terminal prompt. The replacement flag accepts only an existing `@example.test` QA owner; it will not replace a real owner or overwrite existing credentials. This creates the real owner locally, revokes/removes the old QA administrator's authority and records the bootstrap in the audit chain. Restart the local API afterward, sign in at `/admin/`, and enable MFA in **Security**. Account creation and page locks remain MFA protected. Admin sign-in without fresh MFA opens Security first.
+Enter the owner email (or accept the default), then enter and confirm the password in the hidden terminal prompt. The replacement flag accepts only an existing `@example.test` QA owner; it will not replace a real owner or overwrite existing credentials. This creates the real owner locally, revokes/removes the old QA administrator's authority and records the bootstrap in the audit chain. The updated local API reads this identity on each request. Sign in at `/admin/` and enable MFA in **Security**. Account creation and page locks remain MFA protected. Admin sign-in without fresh MFA opens Security first.
 
 This does not provision the Cloudflare database or deploy code. Cloud deployment requires applying migration `0007_admin_console.sql`, deploying the updated Worker and UI artifacts, and securely pinning the real owner ID through a separate provisioning process. No remote owner account was created.
 
