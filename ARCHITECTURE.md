@@ -1,0 +1,15 @@
+# One unified DEN platform
+
+Eight role workspaces are served under one origin: `/consumer/`, `/manager/`, `/rider/`, `/dispatch/`, `/transport/`, `/shipment/`, `/warehouse/`, `/admin/`. The root portal only selects a workspace. Roles and permissions are loaded from the database on each protected API request; visiting a dashboard URL never grants that role.
+
+Central Cloudflare Worker API uses D1 through native bindings. Local development uses a compatible Node SQLite adapter which is excluded from the Worker bundle. All business changes use additive migrations, transaction guards and hash-linked audit append in one database batch. Competing rider reservations and stock deductions fail atomically; delivery state requires separate Ready, organization identification and handoff before pickup, plus separate cash/delivery credentials and a short-lived rider QR to finish.
+
+Secure HttpOnly SameSite cookies are shared across the workspaces. Mutation requests require configured origin and session CSRF. MFA-protected administration uses current database authority and fresh authentication. Only the configured Primary identity can change International Trade. International activation does not configure legal/provider services or approve any fees.
+
+Shared frontend source is maintained in den-shared and copied through its synchronization script into versioned per-app vendor snapshots. Service domain packages are pinned by checksum in backend/vendor. This keeps each private repository reproducibly buildable in CI without embedding organization access tokens. Update source package, sync snapshot, test consuming repos, then publish coordinated commits. Contract version is 1.0.0; changes must preserve clients or introduce a versioned successor.
+
+Services are currently integrated Worker modules and HTTP endpoints rather than separately deployed microservices. Real-time chat/location use persisted requests and refresh, not a claimed WebSocket system. Durable Objects can later coordinate streaming subscriptions with participant checks; Queues can deliver idempotent notifications and webhook jobs. These infrastructure components are not claimed provisioned. R2 document storage must be private and use scoped upload/download authorization before verification uploads are enabled.
+
+Ledger domain uses balanced signed minor-unit journal lines per currency, append-only hashes and idempotency identity. Read-only API wallet shows actual stored entries, with no funding or withdrawal capability. Cash collected by a rider is not credited as withdrawable digital money. Pricing Lab is explicitly a scenario simulation; monthly schedules require independently approved country/currency/plan/category rules. Collection proposals cannot cause a charge.
+
+Production gaps include email ownership/recovery, MFA recovery, hardened identity uploads, retention/abuse systems, external audit checkpoints, backup restoration verification, operational monitoring and reviewed deployment. A local test approval never establishes real-world identity verification.
