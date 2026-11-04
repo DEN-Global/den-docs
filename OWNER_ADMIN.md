@@ -7,7 +7,7 @@ The Owner Admin is the server-pinned Primary Super Admin identity. Owner power i
 The admin workspace now includes overview counts, the latest 200 users and orders, administrator provisioning, a role builder, verification, finance ledger oversight, the latest 100 audit events, and owner page locks. User suspension/reactivation revokes sessions and cannot target the owner or the acting administrator.
 
 - **Owner Admin:** all supported administrator sections; only the owner can control page locks and the global International Trade lock. The owner cannot be modified through delegated admin creation or user status forms.
-- **Sub Admin:** broad administrative authority, including creating administrators and custom roles, except owner-only controls and owner-locked sections. It cannot modify the owner or itself.
+- **Sub Admin:** broad operational authority, except owner-only administrator creation/role management, owner-only controls and owner-locked sections. It cannot modify the owner or itself.
 - **Finance Admin:** finance ledger oversight. No live payment, debit, payout or bank transfer provider has been enabled by this change.
 - **Verification Admin:** organization and rider verification plus the existing warehouse review capability. Private driver's licence upload/storage workflows are not configured by this change; existing application records do not constitute document verification.
 - **Custom roles:** named sets of supported capabilities created through the UI, with no source-code editing. Custom roles never mint owner or super-admin authority. International capabilities remain subject to the owner's trade activation.
@@ -36,3 +36,7 @@ This does not provision the Cloudflare database or deploy code. Cloud deployment
 - Hidden terminal owner bootstrap was exercised against an isolated temporary QA database using synthetic credentials.
 - Browser inspection used a separate QA database and synthetic owner on port 8788; no real owner credential was entered. The MFA-fresh test session was seeded only in that isolated database. API tests independently verify stale MFA rejection.
 - Screenshots in `verification/owner-admin` show overview, account creation, role builder and owner lock controls. They are QA data, not evidence of real-owner activation.
+
+## Updated entry and role rules
+
+The public directory is replaced by one neutral sign-in. New registrations automatically sign in to Consumer; members may permanently choose one additional professional role. Returning members go to their chosen role after sign-in, with Consumer always available. Administrators are routed directly to Admin; no public Admin link is shown. Only the Owner Admin may provision administrators or define administrator roles. See migration `0008_workspace_access.sql`. Backend role checks protect direct API calls; hiding links alone is not the access boundary.

@@ -47,3 +47,7 @@ The four selected Stitch projects are mapped to the implementation in [design/st
 ## Owner Admin console
 
 Owner oversight, user/order views, administrator provisioning, built-in Sub/Finance/Verification roles, custom roles and server-enforced owner page locks are implemented locally. See [OWNER_ADMIN.md](OWNER_ADMIN.md) for supported scope, test evidence and the one-time real owner setup. The requested real owner credentials have not been installed; no cloud owner was provisioned. Finance remains read-only and protected identity document uploads remain unconfigured.
+
+## Unified sign-in and isolated role access
+
+The public directory is removed. New accounts start in Consumer, may select one permanent additional role, and thereafter see only Consumer plus that role. Admin sign-in routes to the private admin workspace; administrator creation and role management are Owner Admin only. See [ACCOUNT_ENTRY.md](ACCOUNT_ENTRY.md) for access rules and QA evidence.
