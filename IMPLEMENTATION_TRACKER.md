@@ -39,3 +39,7 @@ Refund policy remains deferred. No rates, prices, live bookings, bank debits or 
 ## Preview deployment update
 
 The isolated online preview is now deployed and 31 remote smoke checks pass. See [Cloudflare preview record](CLOUDFLARE_PREVIEW.md). This supersedes earlier preview/account-connection pending statuses; R2, Queues, Durable Objects, provider integrations and production readiness remain unfinished.
+
+## Stitch UI/UX integration — 4 November 2026
+
+The four selected Stitch projects are mapped to the implementation in [design/stitch/INTEGRATION.md](design/stitch/INTEGRATION.md). Shared role shells, mobile navigation, catalog/detail, split checkout, order milestones and receipt sections are integrated locally. Reference screenshots and current implementation evidence are included. This is not a complete implementation of every generated advanced screen and has not yet been deployed.

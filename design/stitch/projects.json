@@ -1,0 +1,47 @@
+[
+  {
+    "role": "foundation-identity",
+    "url": "https://stitch.withgoogle.com/projects/13898889370625284559",
+    "status": "A01\u2013A08 generated; policy correction submitted and pending verification"
+  },
+  {
+    "role": "consumer",
+    "url": "https://stitch.withgoogle.com/projects/15401659669429646309",
+    "status": "C01\u2013C04 generated and visually verified; MC01\u2013MC04 continuation accepted; discovery/storefront/wallet remaining"
+  },
+  {
+    "role": "manager",
+    "url": "https://stitch.withgoogle.com/projects/2373815141906492751",
+    "status": "M01\u2013M04 generated; M05\u2013M08 continuation accepted; policy QA pending"
+  },
+  {
+    "role": "rider",
+    "url": "https://stitch.withgoogle.com/projects/7951843199139879195",
+    "status": "R01\u2013R04 generated; MR01\u2013MR04 continuation accepted; R05\u2013R08 remaining"
+  },
+  {
+    "role": "operations-finance",
+    "url": "https://stitch.withgoogle.com/projects/17929684676612417876",
+    "status": "D01\u2013D04 and F01\u2013F04 generated; mobile companion frames and policy QA pending"
+  },
+  {
+    "role": "transport-shipment",
+    "url": "https://stitch.withgoogle.com/projects/745440897226772876",
+    "status": "T01\u2013T04 and S01\u2013S04 generated; three mobile views generating"
+  },
+  {
+    "role": "warehouse",
+    "url": "https://stitch.withgoogle.com/projects/10732508822570181798",
+    "status": "W01\u2013W08 generated, including two mobile frames; detailed policy QA pending"
+  },
+  {
+    "role": "admin-international",
+    "url": "https://stitch.withgoogle.com/projects/6006627530120613758",
+    "status": "N01\u2013N04, I01\u2013I04, X01\u2013X03 generated; X04 and mobile review generating"
+  },
+  {
+    "role": "design-system-states",
+    "url": "https://stitch.withgoogle.com/projects/8641079862532445542",
+    "status": "DS01\u2013DS02 generated; DS03\u2013DS04 continuation accepted; ST01\u2013ST04 remaining"
+  }
+]
