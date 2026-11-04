@@ -43,3 +43,7 @@ The isolated online preview is now deployed and 31 remote smoke checks pass. See
 ## Stitch UI/UX integration — 4 November 2026
 
 The four selected Stitch projects are mapped to the implementation in [design/stitch/INTEGRATION.md](design/stitch/INTEGRATION.md). Shared role shells, mobile navigation, catalog/detail, split checkout, order milestones and receipt sections are integrated locally. Reference screenshots and current implementation evidence are included. This is not a complete implementation of every generated advanced screen and has not yet been deployed.
+
+## Owner Admin console
+
+Owner oversight, user/order views, administrator provisioning, built-in Sub/Finance/Verification roles, custom roles and server-enforced owner page locks are implemented locally. See [OWNER_ADMIN.md](OWNER_ADMIN.md) for supported scope, test evidence and the one-time real owner setup. The requested real owner credentials have not been installed; no cloud owner was provisioned. Finance remains read-only and protected identity document uploads remain unconfigured.
