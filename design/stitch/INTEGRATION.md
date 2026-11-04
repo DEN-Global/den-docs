@@ -34,3 +34,7 @@ The ZIP export did not yield an accessible file and clipboard export returned no
 ## Verification
 
 Eight applications built successfully after the first integration pass; final shared snapshot/build checks repeated after responsive fixes. Shared contract/API tests and consumer/manager/rider snapshot integrity tests passed. Browser verified an existing local QA account: product detail/public reviews opening, manager catalog data, rider onboarding gate, and mobile document width exactly 390px at a 390px viewport. A local QA cart add/remove was verified and cleaned up; no order was placed and no live account/payment mutations were made. Screenshots were captured in IAB and the consumer reference/render pair inspected. Full agency-level visual fidelity and every advanced workflow are not claimed. This change has not been deployed to Cloudflare.
+
+## Navigation correction
+
+Role workspaces no longer link to one another from ordinary user interfaces. The workspace menu is rendered only in the Admin app when `/api/auth/me` returns an administrator level. Direct Admin visits by signed-in non-admins show an access-required screen; server authorization remains authoritative. Transport and Shipment cross-role navigation/account links are removed. Admin sign-in offers no public registration action. This supersedes the earlier shared workspace-switcher design decision.
