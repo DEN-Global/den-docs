@@ -34,3 +34,9 @@ Native-size and mobile emulation are not claimed passed: the Browser/IAB viewpor
 Cloudflare account authorization is being requested through its official CLI device flow. No remote D1/R2/Queues/DO resources, production secrets or deployed preview are claimed until independently verified. Email verification/recovery, MFA recovery, real document verification, financial providers, approved prices, external audit checkpoints, monitoring/retention and reviewed launch configuration are not complete. Live payments, withdrawals and international bookings remain unavailable. Refund activation remains deferred.
 
 See IMPLEMENTATION_TRACKER.md and FEATURE_READINESS.md for complete/partial/not-started boundaries; passing these checks does not complete the full DEN ecosystem.
+
+## Final repository snapshot
+
+[Machine-readable CI evidence](verification/ci.json) records the latest successful workflows and exact tested commit SHAs for all 16 repositories with executable checks; den-docs is the documentation repository. [Final consumer viewport](verification/consumer-final.jpg) shows the persisted order, Ready state and stock reduced from five to four. The current viewport was inspected with `view_image`; the cart action now retains its intended button height.
+
+The integrated static preview packer successfully prepared 416 build files for eight workspaces without copying local credentials or data. This is a local artifact, not a deployed service. The first Cloudflare OAuth request expired without approval; a fresh official device authorization has been opened for the owner. Account connection and remote preview remain pending.
