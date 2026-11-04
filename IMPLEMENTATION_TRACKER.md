@@ -51,3 +51,12 @@ Owner oversight, user/order views, administrator provisioning, built-in Sub/Fina
 ## Unified sign-in and isolated role access
 
 The public directory is removed. New accounts start in Consumer, may select one permanent additional role, and thereafter see only Consumer plus that role. Admin sign-in routes to the private admin workspace; administrator creation and role management are Owner Admin only. See [ACCOUNT_ENTRY.md](ACCOUNT_ENTRY.md) for access rules and QA evidence.
+
+### Consumer and Manager walkthrough update — 4 November 2026
+Organization-first Discover, signup address/phone, map tracking surface, public organization/product discussion feed, profile photos, immediate organization registration, catalog media, transaction/security alerts and sender-ready email-code sign-in are implemented locally. See [CONSUMER_MANAGER_UPDATE.md](CONSUMER_MANAGER_UPDATE.md) for verification and outstanding provider connections. This supersedes organization registration's previous pending-approval policy, while preserving suspension, rider/warehouse approval and disabled live payments.
+
+### Compact GreenFuture / EcoNexa design adaptation — 4 November 2026
+User confirmed DEN Global redesign, then requested compact density during live preview. Consumer and Manager layouts plus the shared/remaining-role visual system are updated locally. All eight app builds and applicable frontend/configuration checks pass. See ECO_UI_REDESIGN.md and workspace design/eco-redesign/README.md for visual comparisons, asset prompts, responsive evidence and limits.
+
+### Complete UI review gallery and GitHub synchronization — 4 November 2026
+The user requested every page/dashboard and a GitHub push. The `preview/` gallery and its Markdown index cover every current role-navigation page and the main forms, including all four administrator types, using isolated review accounts/data. A fresh 93-test backend run and all eight builds pass. The warehouse team count now de-duplicates an owner who also has a facility membership. See preview/README.md for coverage, validation and limits.

@@ -1,0 +1,518 @@
+[
+  {
+    "id": "signin",
+    "title": "Common sign-in",
+    "group": "Account entry",
+    "file": "screens/signin.jpg"
+  },
+  {
+    "id": "registration",
+    "title": "Create account: phone and address",
+    "group": "Account entry",
+    "file": "screens/registration.jpg"
+  },
+  {
+    "id": "consumer-discover",
+    "title": "Discover and organizations",
+    "group": "Consumer",
+    "file": "screens/consumer-discover.jpg"
+  },
+  {
+    "id": "consumer-cart",
+    "title": "Cart and checkout",
+    "group": "Consumer",
+    "file": "screens/consumer-cart.jpg"
+  },
+  {
+    "id": "consumer-role-choice",
+    "title": "Choose one additional role",
+    "group": "Consumer",
+    "file": "screens/consumer-role-choice.jpg"
+  },
+  {
+    "id": "consumer-receipt",
+    "title": "Combined product and delivery receipt",
+    "group": "Consumer",
+    "file": "screens/consumer-receipt.jpg"
+  },
+  {
+    "id": "consumer-community",
+    "title": "Community",
+    "group": "Consumer",
+    "file": "screens/consumer-community.jpg"
+  },
+  {
+    "id": "consumer-delivery-map",
+    "title": "Delivery map",
+    "group": "Consumer",
+    "file": "screens/consumer-delivery-map.jpg"
+  },
+  {
+    "id": "consumer-my-orders",
+    "title": "My orders",
+    "group": "Consumer",
+    "file": "screens/consumer-my-orders.jpg"
+  },
+  {
+    "id": "consumer-notifications",
+    "title": "Notifications",
+    "group": "Consumer",
+    "file": "screens/consumer-notifications.jpg"
+  },
+  {
+    "id": "consumer-order-detail",
+    "title": "Order details and delivery verification",
+    "group": "Consumer",
+    "file": "screens/consumer-order-detail.jpg"
+  },
+  {
+    "id": "consumer-store",
+    "title": "Organization storefront",
+    "group": "Consumer",
+    "file": "screens/consumer-store.jpg"
+  },
+  {
+    "id": "consumer-product",
+    "title": "Product details and discussion",
+    "group": "Consumer",
+    "file": "screens/consumer-product.jpg"
+  },
+  {
+    "id": "consumer-profile",
+    "title": "Profile",
+    "group": "Consumer",
+    "file": "screens/consumer-profile.jpg"
+  },
+  {
+    "id": "consumer-destinations",
+    "title": "Saved delivery destinations",
+    "group": "Consumer",
+    "file": "screens/consumer-destinations.jpg"
+  },
+  {
+    "id": "consumer-security",
+    "title": "Security",
+    "group": "Consumer",
+    "file": "screens/consumer-security.jpg"
+  },
+  {
+    "id": "consumer-wallet",
+    "title": "Wallet",
+    "group": "Consumer",
+    "file": "screens/consumer-wallet.jpg"
+  },
+  {
+    "id": "manager-organization",
+    "title": "Organization",
+    "group": "Manager",
+    "file": "screens/manager-organization.jpg"
+  },
+  {
+    "id": "manager-add-product",
+    "title": "Add product",
+    "group": "Manager",
+    "file": "screens/manager-add-product.jpg"
+  },
+  {
+    "id": "manager-edit-product",
+    "title": "Edit product",
+    "group": "Manager",
+    "file": "screens/manager-edit-product.jpg"
+  },
+  {
+    "id": "manager-edit-store",
+    "title": "Edit store",
+    "group": "Manager",
+    "file": "screens/manager-edit-store.jpg"
+  },
+  {
+    "id": "manager-incoming-orders",
+    "title": "Incoming orders",
+    "group": "Manager",
+    "file": "screens/manager-incoming-orders.jpg"
+  },
+  {
+    "id": "manager-notifications",
+    "title": "Notifications",
+    "group": "Manager",
+    "file": "screens/manager-notifications.jpg"
+  },
+  {
+    "id": "manager-profile",
+    "title": "Profile",
+    "group": "Manager",
+    "file": "screens/manager-profile.jpg"
+  },
+  {
+    "id": "manager-register",
+    "title": "Register",
+    "group": "Manager",
+    "file": "screens/manager-register.jpg"
+  },
+  {
+    "id": "manager-security",
+    "title": "Security",
+    "group": "Manager",
+    "file": "screens/manager-security.jpg"
+  },
+  {
+    "id": "manager-wallet",
+    "title": "Wallet",
+    "group": "Manager",
+    "file": "screens/manager-wallet.jpg"
+  },
+  {
+    "id": "rider-rider-profile",
+    "title": "Rider profile",
+    "group": "Rider",
+    "file": "screens/rider-rider-profile.jpg"
+  },
+  {
+    "id": "rider-communities",
+    "title": "Communities",
+    "group": "Rider",
+    "file": "screens/rider-communities.jpg"
+  },
+  {
+    "id": "rider-delivery-jobs",
+    "title": "Delivery jobs",
+    "group": "Rider",
+    "file": "screens/rider-delivery-jobs.jpg"
+  },
+  {
+    "id": "rider-notifications",
+    "title": "Notifications",
+    "group": "Rider",
+    "file": "screens/rider-notifications.jpg"
+  },
+  {
+    "id": "rider-profile",
+    "title": "Profile",
+    "group": "Rider",
+    "file": "screens/rider-profile.jpg"
+  },
+  {
+    "id": "rider-security",
+    "title": "Security",
+    "group": "Rider",
+    "file": "screens/rider-security.jpg"
+  },
+  {
+    "id": "rider-wallet",
+    "title": "Wallet",
+    "group": "Rider",
+    "file": "screens/rider-wallet.jpg"
+  },
+  {
+    "id": "dispatch-dispatch-queue",
+    "title": "Dispatch queue",
+    "group": "Dispatch",
+    "file": "screens/dispatch-dispatch-queue.jpg"
+  },
+  {
+    "id": "dispatch-notifications",
+    "title": "Notifications",
+    "group": "Dispatch",
+    "file": "screens/dispatch-notifications.jpg"
+  },
+  {
+    "id": "dispatch-profile",
+    "title": "Profile",
+    "group": "Dispatch",
+    "file": "screens/dispatch-profile.jpg"
+  },
+  {
+    "id": "dispatch-security",
+    "title": "Security",
+    "group": "Dispatch",
+    "file": "screens/dispatch-security.jpg"
+  },
+  {
+    "id": "dispatch-wallet",
+    "title": "Wallet",
+    "group": "Dispatch",
+    "file": "screens/dispatch-wallet.jpg"
+  },
+  {
+    "id": "transport-dashboard",
+    "title": "Journey requests and driver onboarding",
+    "group": "Transport",
+    "file": "screens/transport-dashboard.jpg"
+  },
+  {
+    "id": "shipment-dashboard",
+    "title": "Shipment quotation requests",
+    "group": "Shipment",
+    "file": "screens/shipment-dashboard.jpg"
+  },
+  {
+    "id": "warehouse-overview",
+    "title": "Overview",
+    "group": "Warehouse",
+    "file": "screens/warehouse-overview.jpg"
+  },
+  {
+    "id": "warehouse-activity",
+    "title": "Activity",
+    "group": "Warehouse",
+    "file": "screens/warehouse-activity.jpg"
+  },
+  {
+    "id": "warehouse-add-facility",
+    "title": "Add facility",
+    "group": "Warehouse",
+    "file": "screens/warehouse-add-facility.jpg"
+  },
+  {
+    "id": "warehouse-edit-facility",
+    "title": "Edit facility",
+    "group": "Warehouse",
+    "file": "screens/warehouse-edit-facility.jpg"
+  },
+  {
+    "id": "warehouse-facilities",
+    "title": "Facilities",
+    "group": "Warehouse",
+    "file": "screens/warehouse-facilities.jpg"
+  },
+  {
+    "id": "warehouse-invite",
+    "title": "Invite",
+    "group": "Warehouse",
+    "file": "screens/warehouse-invite.jpg"
+  },
+  {
+    "id": "warehouse-operations",
+    "title": "Operations",
+    "group": "Warehouse",
+    "file": "screens/warehouse-operations.jpg"
+  },
+  {
+    "id": "warehouse-register-business",
+    "title": "Register business",
+    "group": "Warehouse",
+    "file": "screens/warehouse-register-business.jpg"
+  },
+  {
+    "id": "warehouse-security",
+    "title": "Security",
+    "group": "Warehouse",
+    "file": "screens/warehouse-security.jpg"
+  },
+  {
+    "id": "warehouse-team",
+    "title": "Team",
+    "group": "Warehouse",
+    "file": "screens/warehouse-team.jpg"
+  },
+  {
+    "id": "owner-overview",
+    "title": "Overview",
+    "group": "Owner Admin",
+    "file": "screens/owner-overview.jpg"
+  },
+  {
+    "id": "owner-activity-log",
+    "title": "Activity log",
+    "group": "Owner Admin",
+    "file": "screens/owner-activity-log.jpg"
+  },
+  {
+    "id": "owner-administrators",
+    "title": "Administrators",
+    "group": "Owner Admin",
+    "file": "screens/owner-administrators.jpg"
+  },
+  {
+    "id": "owner-finance",
+    "title": "Finance",
+    "group": "Owner Admin",
+    "file": "screens/owner-finance.jpg"
+  },
+  {
+    "id": "owner-notifications",
+    "title": "Notifications",
+    "group": "Owner Admin",
+    "file": "screens/owner-notifications.jpg"
+  },
+  {
+    "id": "owner-page-locks",
+    "title": "Page locks",
+    "group": "Owner Admin",
+    "file": "screens/owner-page-locks.jpg"
+  },
+  {
+    "id": "owner-platform-orders",
+    "title": "Platform orders",
+    "group": "Owner Admin",
+    "file": "screens/owner-platform-orders.jpg"
+  },
+  {
+    "id": "owner-platform-users",
+    "title": "Platform users",
+    "group": "Owner Admin",
+    "file": "screens/owner-platform-users.jpg"
+  },
+  {
+    "id": "owner-profile",
+    "title": "Profile",
+    "group": "Owner Admin",
+    "file": "screens/owner-profile.jpg"
+  },
+  {
+    "id": "owner-roles-and-permissions",
+    "title": "Roles & permissions",
+    "group": "Owner Admin",
+    "file": "screens/owner-roles-and-permissions.jpg"
+  },
+  {
+    "id": "owner-security",
+    "title": "Security",
+    "group": "Owner Admin",
+    "file": "screens/owner-security.jpg"
+  },
+  {
+    "id": "owner-trade-controls",
+    "title": "Trade controls",
+    "group": "Owner Admin",
+    "file": "screens/owner-trade-controls.jpg"
+  },
+  {
+    "id": "owner-verification",
+    "title": "Verification",
+    "group": "Owner Admin",
+    "file": "screens/owner-verification.jpg"
+  },
+  {
+    "id": "owner-verification-detail",
+    "title": "Verification detail",
+    "group": "Owner Admin",
+    "file": "screens/owner-verification-detail.jpg"
+  },
+  {
+    "id": "owner-wallet",
+    "title": "Wallet",
+    "group": "Owner Admin",
+    "file": "screens/owner-wallet.jpg"
+  },
+  {
+    "id": "sub-overview",
+    "title": "Overview",
+    "group": "Sub Admin",
+    "file": "screens/sub-overview.jpg"
+  },
+  {
+    "id": "sub-activity-log",
+    "title": "Activity log",
+    "group": "Sub Admin",
+    "file": "screens/sub-activity-log.jpg"
+  },
+  {
+    "id": "sub-finance",
+    "title": "Finance",
+    "group": "Sub Admin",
+    "file": "screens/sub-finance.jpg"
+  },
+  {
+    "id": "sub-notifications",
+    "title": "Notifications",
+    "group": "Sub Admin",
+    "file": "screens/sub-notifications.jpg"
+  },
+  {
+    "id": "sub-platform-orders",
+    "title": "Platform orders",
+    "group": "Sub Admin",
+    "file": "screens/sub-platform-orders.jpg"
+  },
+  {
+    "id": "sub-platform-users",
+    "title": "Platform users",
+    "group": "Sub Admin",
+    "file": "screens/sub-platform-users.jpg"
+  },
+  {
+    "id": "sub-profile",
+    "title": "Profile",
+    "group": "Sub Admin",
+    "file": "screens/sub-profile.jpg"
+  },
+  {
+    "id": "sub-security",
+    "title": "Security",
+    "group": "Sub Admin",
+    "file": "screens/sub-security.jpg"
+  },
+  {
+    "id": "sub-verification",
+    "title": "Verification",
+    "group": "Sub Admin",
+    "file": "screens/sub-verification.jpg"
+  },
+  {
+    "id": "sub-wallet",
+    "title": "Wallet",
+    "group": "Sub Admin",
+    "file": "screens/sub-wallet.jpg"
+  },
+  {
+    "id": "finance-finance",
+    "title": "Finance",
+    "group": "Finance Admin",
+    "file": "screens/finance-finance.jpg"
+  },
+  {
+    "id": "finance-notifications",
+    "title": "Notifications",
+    "group": "Finance Admin",
+    "file": "screens/finance-notifications.jpg"
+  },
+  {
+    "id": "finance-profile",
+    "title": "Profile",
+    "group": "Finance Admin",
+    "file": "screens/finance-profile.jpg"
+  },
+  {
+    "id": "finance-security",
+    "title": "Security",
+    "group": "Finance Admin",
+    "file": "screens/finance-security.jpg"
+  },
+  {
+    "id": "finance-wallet",
+    "title": "Wallet",
+    "group": "Finance Admin",
+    "file": "screens/finance-wallet.jpg"
+  },
+  {
+    "id": "verifier-verification",
+    "title": "Verification",
+    "group": "Verification Admin",
+    "file": "screens/verifier-verification.jpg"
+  },
+  {
+    "id": "verifier-notifications",
+    "title": "Notifications",
+    "group": "Verification Admin",
+    "file": "screens/verifier-notifications.jpg"
+  },
+  {
+    "id": "verifier-profile",
+    "title": "Profile",
+    "group": "Verification Admin",
+    "file": "screens/verifier-profile.jpg"
+  },
+  {
+    "id": "verifier-security",
+    "title": "Security",
+    "group": "Verification Admin",
+    "file": "screens/verifier-security.jpg"
+  },
+  {
+    "id": "verifier-wallet",
+    "title": "Wallet",
+    "group": "Verification Admin",
+    "file": "screens/verifier-wallet.jpg"
+  }
+]
