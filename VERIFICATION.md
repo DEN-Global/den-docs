@@ -40,3 +40,7 @@ See IMPLEMENTATION_TRACKER.md and FEATURE_READINESS.md for complete/partial/not-
 [Machine-readable CI evidence](verification/ci.json) records the latest successful workflows and exact tested commit SHAs for all 16 repositories with executable checks; den-docs is the documentation repository. [Final consumer viewport](verification/consumer-final.jpg) shows the persisted order, Ready state and stock reduced from five to four. The current viewport was inspected with `view_image`; the cart action now retains its intended button height.
 
 The integrated static preview packer successfully prepared 416 build files for eight workspaces without copying local credentials or data. This is a local artifact, not a deployed service. The first Cloudflare OAuth request expired without approval; a fresh official device authorization has been opened for the owner. Account connection and remote preview remain pending.
+
+## Online preview verified
+
+Cloudflare authorization and isolated Worker/D1 deployment are now complete. [Deployment and 31 passing remote checks](CLOUDFLARE_PREVIEW.md) supersede the earlier pending authorization/deployment notes. Five new infrastructure configuration tests also pass in CI. The existing broader feature/security limitations remain.

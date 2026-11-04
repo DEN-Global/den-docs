@@ -1,0 +1,169 @@
+{
+  "origin": "https://den-global-preview.lekanay2005.workers.dev",
+  "verifiedAt": "2026-11-04T09:10:31.596Z",
+  "results": [
+    {
+      "check": "shared API health",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "HTML /",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "security headers /",
+      "pass": true
+    },
+    {
+      "check": "HTML /consumer/",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "security headers /consumer/",
+      "pass": true
+    },
+    {
+      "check": "HTML /manager/",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "security headers /manager/",
+      "pass": true
+    },
+    {
+      "check": "HTML /rider/",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "security headers /rider/",
+      "pass": true
+    },
+    {
+      "check": "HTML /dispatch/",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "security headers /dispatch/",
+      "pass": true
+    },
+    {
+      "check": "HTML /transport/",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "security headers /transport/",
+      "pass": true
+    },
+    {
+      "check": "HTML /shipment/",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "security headers /shipment/",
+      "pass": true
+    },
+    {
+      "check": "HTML /warehouse/",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "security headers /warehouse/",
+      "pass": true
+    },
+    {
+      "check": "HTML /admin/",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "security headers /admin/",
+      "pass": true
+    },
+    {
+      "check": "anonymous API denied",
+      "pass": true,
+      "detail": {
+        "status": 401
+      }
+    },
+    {
+      "check": "secure registration on Workers Free",
+      "pass": true,
+      "detail": {
+        "status": 201
+      }
+    },
+    {
+      "check": "secure sign-in on Workers Free",
+      "pass": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "check": "shared session has no administrator",
+      "pass": true
+    },
+    {
+      "check": "CSRF required",
+      "pass": true
+    },
+    {
+      "check": "foreign origin rejected",
+      "pass": true
+    },
+    {
+      "check": "live funds and withdrawals disabled",
+      "pass": true
+    },
+    {
+      "check": "ordinary account cannot unlock trade",
+      "pass": true
+    },
+    {
+      "check": "international booking remains locked",
+      "pass": true
+    },
+    {
+      "check": "remote payment simulator disabled",
+      "pass": true
+    },
+    {
+      "check": "logout revokes session",
+      "pass": true
+    },
+    {
+      "check": "logged-out session denied",
+      "pass": true
+    }
+  ]
+}

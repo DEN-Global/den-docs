@@ -1,0 +1,15 @@
+{
+  "previewUrl": "https://den-global-preview.lekanay2005.workers.dev",
+  "workerName": "den-global-preview",
+  "workerVersion": "6411e55b-53bb-450a-abbf-1252b09a6f16",
+  "databaseName": "den-global-preview-20261104",
+  "databaseId": "441d5779-a55c-40d8-9551-cecfc6a2326d",
+  "migrationCount": 6,
+  "administratorsEnabled": false,
+  "paymentsEnabled": false,
+  "internationalTradeEnabled": false,
+  "plan": "existing Workers Free",
+  "infrastructureCommit": "8cf75f37ed6131ce97378abd32afdc4888ac83e1",
+  "infrastructureCi": "https://github.com/DEN-Global/den-infrastructure/actions/runs/41804964479",
+  "smokeChecksPassed": 31
+}

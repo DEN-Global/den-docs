@@ -35,3 +35,7 @@ Backend full local suite: 73 passed, zero failed/skipped at verification. Includ
 5. Implement remaining advanced features and country-by-country carrier/customs/legal adapters before any international activation.
 
 Refund policy remains deferred. No rates, prices, live bookings, bank debits or international activation were approved by these code changes.
+
+## Preview deployment update
+
+The isolated online preview is now deployed and 31 remote smoke checks pass. See [Cloudflare preview record](CLOUDFLARE_PREVIEW.md). This supersedes earlier preview/account-connection pending statuses; R2, Queues, Durable Objects, provider integrations and production readiness remain unfinished.
