@@ -2,11 +2,11 @@
 
 The public `/` entry redirects to the neutral DEN sign-in. It no longer lists role workspaces or an Admin link. The same sign-in authenticates all account types; authority comes from trusted server records, never from a claimed email or selected browser route.
 
-New public registrations automatically sign in and land in Consumer. A member may choose one additional role: Manager, Rider, Dispatch, Transport, Shipment or Warehouse. The role choice is permanent, including database triggers preventing changes/deletion. Consumer stays available. This does not grant business, rider, driver or facility approval.
+New public registrations must verify their email with a one-time code before the account is created, then automatically sign in and land in Consumer. Signup passwords require at least 12 characters, including a letter and a number; the password field has a show/hide control. A member may choose one additional role: Manager, Rider, Dispatch, Transport, Shipment or Warehouse. The role choice is permanent, including database triggers preventing changes/deletion. Consumer stays available. This does not grant business, rider, driver or facility approval.
 
 After selection, the UI shows only Consumer and the chosen role. Other role URLs redirect to Consumer, and protected APIs enforce the choice independently of the UI. Returning member sign-ins route to the chosen role. Administrators route directly to `/admin/`; without fresh MFA, Security opens first. Admins do not receive the public role chooser.
 
-Administrator creation and admin role management are now Owner Admin only. Sub Admin access to new and legacy provisioning endpoints is denied. Public registration cannot create administrators, and typing an Admin URL cannot grant privileges. The existing one-time real-owner setup remains pending; no supplied owner password was stored or used in QA.
+Administrator creation and admin role management are now Owner Admin only. Sub Admin access to new and legacy provisioning endpoints is denied. Public registration cannot create administrators, and typing an Admin URL cannot grant privileges. The existing one-time real-owner setup remains pending; no supplied owner password was stored or used in QA. Email verification uses a single-use six-digit code that expires after 10 minutes and allows at most five guesses. Registration is paused until a sender is configured.
 
 ## Validation
 

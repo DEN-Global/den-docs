@@ -14,7 +14,9 @@ Local implementation of the user's Consumer/Manager walkthrough:
 
 ## Email delivery connection still required
 
-No real sender credentials are configured. `/api/auth/options` reports emailCodes=false, so public UI does not offer an unusable delivery action. Configure `RESEND_API_KEY` and `SIGNIN_EMAIL_FROM` privately in the backend process (or Worker secrets) after verifying the sender domain. Never commit the key. Local dev passes these environment values through; restart after setting them. Provider contract: https://resend.com/docs/api-reference/emails/send-email .
+No real sender credentials are configured. `/api/auth/options` reports emailCodes=false and registrationEmail=false, so email-code sign-in is hidden and account creation stays disabled until a sender is configured. Configure `RESEND_API_KEY` and `SIGNIN_EMAIL_FROM` privately in the backend process (or Worker secrets) after verifying the sender domain. Never commit the key. Local dev passes these environment values through; restart after setting them. Provider contract: https://resend.com/docs/api-reference/emails/send-email .
+
+Public signup now requires a six-digit email code before creating an account. Codes are hashed, expire after 10 minutes, allow five guesses and are consumed once. The API enforces a 12-character minimum with at least one letter and one number; the form includes an accessible show/hide password button. Migration `0016_registration_email_verification.sql` adds the challenge table.
 
 ## Verification
 
